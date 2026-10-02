@@ -1,0 +1,59 @@
+# Query: person.jpg
+# ContextLines: 1
+
+14 results - 14 files
+
+public\admin-assets\SitePages\dashboard.html:
+  1: ⟪ 2944 characters skipped ⟫li class="nav-item"><a class="nav-link profile-dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="rounded-circle" src="../SiteAssets/images/person.jpg"/><span class="d">{{ auth()->user()->name }}</span></a><div class="dropdown"><div class="dropdown-menu shadow-lg profile-dropdown-menu" aria-labelledby="profile-dropdown"><a class="dropdown-item" href="#"><i class="las la-user mr-2"></i>profile</a><a class="dropdown-item" href="#"><i class="las la-cog mr-2"></i>settings</a></div></div></li></ul></div></nav></header><main><div class="side-nav"><ul class="list-group list-group-flush"><a class="list-group-item" href="dashboard.html" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="las la-shapes la-lw"></i><span>dashboard</span></a><a class="list-group-item" href="patients.html" data-toggle="tooltip" data-placement="bottom" title="Patients"><i class="las la-user-injured la-lw"></i><span>patients</span></a><a class="list-group-item" href="specialists.html" data-toggle="tooltip" data-placement="bottom" title="Specialists"><i class="las la-clinic-medical la-lw"></i><span>specialists</span></a><a class="list
+
+public\admin-assets\SitePages\details.html:
+  1: ⟪ 2750 characters skipped ⟫li class="nav-item"><a class="nav-link profile-dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="rounded-circle" src="../SiteAssets/images/person.jpg"/><span class="d">{{ auth()->user()->name }}</span></a><div class="dropdown"><div class="dropdown-menu shadow-lg profile-dropdown-menu" aria-labelledby="profile-dropdown"><a class="dropdown-item" href="#"><i class="las la-user mr-2"></i>profile</a><a class="dropdown-item" href="#"><i class="las la-cog mr-2"></i>settings</a></div></div></li></ul></div></nav></header><main><div class="side-nav"><ul class="list-group list-group-flush"><a class="list-group-item" href="dashboard.html" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="las la-shapes la-lw"></i><span>dashboard</span></a><a class="list-group-item" href="patients.html" data-toggle="tooltip" data-placement="bottom" title="Patients"><i class="las la-user-injured la-lw"></i><span>patients</span></a><a class="list-group-item" href="specialists.html" data-toggle="tooltip" data-placement="bottom" title="Specialists"><i class="las la-clinic-medical la-lw"></i><span>specialists</span></a><a class="list
+
+public\admin-assets\SitePages\layout.html:
+  1: ⟪ 2680 characters skipped ⟫/li><li class="nav-item"><div class="nav-link"><span class="vertical-divider"></span></div></li><li class="nav-item"><a class="nav-link" href="#"><img class="rounded-circle" src="../SiteAssets/images/person.jpg"/></a></li><li class="nav-item dropdown dropleft"><a class="nav-link profile-dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ auth()->user()->name }}</a><div class="dropdown-menu shadow-lg" aria-labelledby="profile-dropdown"><a class="dropdown-item" href="#"><i class="las la-user mr-2"></i>profile</a><a class="dropdown-item" href="#"><i class="las la-cog mr-2"></i>settings</a></div></li></ul></div></nav></header><main><div class="side-nav shadow-sm"><ul class="list-group list-group-flush"><a class="list-group-item" href="dashboard.html"><i class="las la-shapes la-lw"></i>dashboard</a><a class="list-group-item" href="patients.html"><i class="las la-user-injured la-lw"></i>patients</a><a class="list-group-item" href="specialists.html"><i class="las la-clinic-medical la-lw"></i>specialists</a><a class="list-group-item" href="procurement.html"><i class="las la-shopping-cart la-lw"></i>procurement</a><a class="list-group-item" 
+
+public\admin-assets\SitePages\layout.pug:
+  65  							a.nav-link.profile-dropdown(href='#' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+  66: 								img.rounded-circle(src=assetsDirectory + '/images/person.jpg')
+  67  								span.d {{ auth()->user()->name }}
+
+public\admin-assets\SitePages\notifications.html:
+  1: ⟪ 2756 characters skipped ⟫li class="nav-item"><a class="nav-link profile-dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="rounded-circle" src="../SiteAssets/images/person.jpg"/><span class="d">{{ auth()->user()->name }}</span></a><div class="dropdown"><div class="dropdown-menu shadow-lg profile-dropdown-menu" aria-labelledby="profile-dropdown"><a class="dropdown-item" href="#"><i class="las la-user mr-2"></i>profile</a><a class="dropdown-item" href="#"><i class="las la-cog mr-2"></i>settings</a></div></div></li></ul></div></nav></header><main><div class="side-nav"><ul class="list-group list-group-flush"><a class="list-group-item" href="dashboard.html" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="las la-shapes la-lw"></i><span>dashboard</span></a><a class="list-group-item" href="patients.html" data-toggle="tooltip" data-placement="bottom" title="Patients"><i class="las la-user-injured la-lw"></i><span>patients</span></a><a class="list-group-item" href="specialists.html" data-toggle="tooltip" data-placement="bottom" title="Specialists"><i class="las la-clinic-medical la-lw"></i><span>specialists</span></a><a class="list
+
+public\admin-assets\SitePages\patients.html:
+  1: ⟪ 2803 characters skipped ⟫li class="nav-item"><a class="nav-link profile-dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="rounded-circle" src="../SiteAssets/images/patient-avatar.png"/><span class="d">{{ auth()->user()->name }}</span></a><div class="dropdown"><div class="dropdown-menu shadow-lg profile-dropdown-menu" aria-labelledby="profile-dropdown"><a class="dropdown-item" href="#"><i class="las la-user mr-2"></i>profile</a><a class="dropdown-item" href="#"><i class="las la-cog mr-2"></i>settings</a></div></div></li></ul></div></nav></header><main><div class="side-nav"><ul class="list-group list-group-flush"><a class="list-group-item" href="dashboard.html" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="las la-shapes la-lw"></i><span>dashboard</span></a><a class="list-group-item" href="patients.html" data-toggle="tooltip" data-placement="bottom" title="Patients"><i class="las la-user-injured la-lw"></i><span>patients</span></a><a class="list-group-item" href="specialists.html" data-toggle="tooltip" data-placement="bottom" title="Specialists"><i class="las la-clinic-medical la-lw"></i><span>specialists</span></a><a class="list
+
+public\admin-assets\SitePages\procurement.html:
+  1: ⟪ 2754 characters skipped ⟫li class="nav-item"><a class="nav-link profile-dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="rounded-circle" src="../SiteAssets/images/person.jpg"/><span class="d">{{ auth()->user()->name }}</span></a><div class="dropdown"><div class="dropdown-menu shadow-lg profile-dropdown-menu" aria-labelledby="profile-dropdown"><a class="dropdown-item" href="#"><i class="las la-user mr-2"></i>profile</a><a class="dropdown-item" href="#"><i class="las la-cog mr-2"></i>settings</a></div></div></li></ul></div></nav></header><main><div class="side-nav"><ul class="list-group list-group-flush"><a class="list-group-item" href="dashboard.html" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="las la-shapes la-lw"></i><span>dashboard</span></a><a class="list-group-item" href="patients.html" data-toggle="tooltip" data-placement="bottom" title="Patients"><i class="las la-user-injured la-lw"></i><span>patients</span></a><a class="list-group-item" href="specialists.html" data-toggle="tooltip" data-placement="bottom" title="Specialists"><i class="las la-clinic-medical la-lw"></i><span>specialists</span></a><a class="list
+
+public\admin-assets\SitePages\settings.html:
+  1: ⟪ 2751 characters skipped ⟫li class="nav-item"><a class="nav-link profile-dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="rounded-circle" src="../SiteAssets/images/person.jpg"/><span class="d">{{ auth()->user()->name }}</span></a><div class="dropdown"><div class="dropdown-menu shadow-lg profile-dropdown-menu" aria-labelledby="profile-dropdown"><a class="dropdown-item" href="#"><i class="las la-user mr-2"></i>profile</a><a class="dropdown-item" href="#"><i class="las la-cog mr-2"></i>settings</a></div></div></li></ul></div></nav></header><main><div class="side-nav"><ul class="list-group list-group-flush"><a class="list-group-item" href="dashboard.html" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="las la-shapes la-lw"></i><span>dashboard</span></a><a class="list-group-item" href="patients.html" data-toggle="tooltip" data-placement="bottom" title="Patients"><i class="las la-user-injured la-lw"></i><span>patients</span></a><a class="list-group-item" href="specialists.html" data-toggle="tooltip" data-placement="bottom" title="Specialists"><i class="las la-clinic-medical la-lw"></i><span>specialists</span></a><a class="list
+
+public\admin-assets\SitePages\specialists.html:
+  1: ⟪ 2754 characters skipped ⟫li class="nav-item"><a class="nav-link profile-dropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="rounded-circle" src="../SiteAssets/images/person.jpg"/><span class="d">{{ auth()->user()->name }}</span></a><div class="dropdown"><div class="dropdown-menu shadow-lg profile-dropdown-menu" aria-labelledby="profile-dropdown"><a class="dropdown-item" href="#"><i class="las la-user mr-2"></i>profile</a><a class="dropdown-item" href="#"><i class="las la-cog mr-2"></i>settings</a></div></div></li></ul></div></nav></header><main><div class="side-nav"><ul class="list-group list-group-flush"><a class="list-group-item" href="dashboard.html" data-toggle="tooltip" data-placement="bottom" title="Dashboard"><i class="las la-shapes la-lw"></i><span>dashboard</span></a><a class="list-group-item" href="patients.html" data-toggle="tooltip" data-placement="bottom" title="Patients"><i class="las la-user-injured la-lw"></i><span>patients</span></a><a class="list-group-item" href="specialists.html" data-toggle="tooltip" data-placement="bottom" title="Specialists"><i class="las la-clinic-medical la-lw"></i><span>specialists</span></a><a class="list
+
+resources\views\admin\layout.blade.php:
+  45                      <img class="rounded-circle"
+  46:                          src="{{ asset('admin-assets/SiteAssets/images/person.jpg') }}">
+  47  
+
+resources\views\layouts\admin.blade.php:
+  82  
+  83:                             <img class="rounded-circle" src="{{ asset('admin-assets/SiteAssets/images/person.jpg') }}"
+  84                                  width="35">
+
+resources\views\layouts\doctor.blade.php:
+  43  
+  44:                     <img src="{{ asset('admin-assets/SiteAssets/images/doctor-avatar.png') }}"
+  45                          class="rounded-circle"
+
+resources\views\layouts\patient.blade.php:
+  46                              <img class="rounded-circle" width="35"
+  47:                                 src="{{ asset('admin-assets/SiteAssets/images/patient-avatar.png
+  ') }}">
+  48  
+
+resources\views\patient\doctors.blade.php:
+  82  
+  83:                             <img src="{{ asset('admin-assets/SiteAssets/images/doctor-avatar.png') }}" width="100" height="100"
+  84                                  class="rounded-circle mb-3">

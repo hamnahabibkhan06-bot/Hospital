@@ -1,0 +1,185 @@
+/* =====================================================
+   Hospital Management System Theme
+   Primary Color : #00D9A5
+===================================================== */
+
+:root{
+    --primary:#00D9A5;
+    --primary-dark:#00C195;
+    --primary-light:#E8FFF9;
+    --text:#2C3E50;
+}
+
+/* Body */
+
+body{
+    background:#F8FCFC;
+    color:var(--text);
+}
+
+/* Navbar */
+
+.navbar{
+    background:var(--primary)!important;
+}
+
+.navbar-brand,
+.navbar-brand span,
+.navbar a,
+.navbar i,
+.navbar .nav-link{
+    color:white!important;
+}
+
+/* Sidebar */
+
+.side-nav{
+    background:white!important;
+    box-shadow:0 0 15px rgba(0,0,0,.08);
+}
+
+.side-nav .list-group-item{
+    border:none;
+    color:#444;
+    transition:.25s;
+}
+
+.side-nav .list-group-item:hover{
+    background:var(--primary-light);
+    color:var(--primary);
+}
+
+.side-nav .list-group-item.active{
+    background:var(--primary)!important;
+    color:white!important;
+}
+
+.side-nav i{
+    color:inherit;
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.card-header{
+    background:var(--primary);
+    color:#00C195;
+    border:none;
+}
+
+/* Buttons */
+
+.btn-primary{
+    background:var(--primary)!important;
+    border-color:var(--primary)!important;
+}
+
+.btn-primary:hover{
+    background:var(--primary-dark)!important;
+    border-color:var(--primary-dark)!important;
+}
+
+.btn-success{
+    background:var(--primary)!important;
+    border-color:var(--primary)!important;
+}
+
+.btn-success:hover{
+    background:var(--primary-dark)!important;
+}
+
+.btn-info{
+    background:#17a2b8!important;
+}
+
+/* Tables */
+
+.table-dark{
+    background:var(--primary)!important;
+}
+
+.table-dark th{
+    background:var(--primary)!important;
+    border-color:var(--primary)!important;
+}
+
+/* Links */
+
+a{
+    color:var(--primary);
+}
+
+a:hover{
+    color:var(--primary-dark);
+}
+
+/* Forms */
+
+.form-control:focus{
+    border-color:var(--primary);
+    box-shadow:0 0 0 .2rem rgba(0,217,165,.25);
+}
+
+/* Pagination */
+
+.page-item.active .page-link{
+    background:var(--primary);
+    border-color:var(--primary);
+}
+
+.page-link{
+    color:var(--primary);
+}
+
+/* Alerts */
+
+.alert-success{
+    background:#E8FFF9;
+    border-color:var(--primary);
+    color:#007A61;
+}
+
+/* Badges */
+
+.badge-primary{
+    background:var(--primary);
+}
+
+/* Dashboard Numbers */
+
+.card h2{
+    color:var(--primary);
+    font-weight:bold;
+}
+
+/* Icons */
+
+.las{
+    color:inherit;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:var(--primary);
+    border-radius:10px;
+}
+.btn-theme{
+    background:#00ffc3d6;
+    color:white;
+    border:none;
+}
+
+.btn-theme:hover{
+    background:#00C195;
+    color:white;
+}

@@ -1,0 +1,12 @@
+# Query: reports
+# ContextLines: 1
+
+6 results - 3 files
+
+resources\views\admin\layout.blade.php:
+  12
+resources\views\layouts\admin.blade.php:
+  166  
+routes\web.php:
+  57  
+  58:      
